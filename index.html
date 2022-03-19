@@ -54,6 +54,10 @@
 
 <!-- inject css end -->
 
+<!-- for slick caraousel -->
+<link rel="stylesheet" href="css/slick-theme.css" />
+<link rel="stylesheet" href="css/slick.css" />
+
 </head>
 
 <body>
@@ -83,163 +87,34 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+
           <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg" style="display: flex;flex-direction: row;justify-content: space-between;">
             <a class="navbar-brand logo" href="index.html">
               <img id="logo-img" class="img-fluid" src="images/wedoer.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
-              <span></span>
-              <span></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse"  id="navbarNavDropdown">
               <ul class="navbar-nav mx-auto">
                 <!-- Home -->
                 <li class="nav-item"> <a class="nav-link active" href="#home">Home</a>
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="#about">About</a>
                 </li>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="#stats">Stats</a>
+              </li>
                 <li class="nav-item"> <a class="nav-link" href="#services">Services</a>
+                <li class="nav-item"> <a class="nav-link" href="#blog">Projects</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#pricing">Pricing</a>
+                <li class="nav-item"> <a class="nav-link" href="#reviews">Reviews</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="#blog">Blogs</a>
-                </li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
-                  <div class="dropdown-menu">
-                    <ul class="list-unstyled">
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      About Us
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="about.html">About Us 1</a>
-                          </li>
-                          <li><a href="about-2.html">About Us 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Services
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="service.html">Services 1</a>
-                          </li>
-                          <li><a href="service-2.html">Services 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Team
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="team-1.html">Team 1</a>
-                          </li>
-                          <li><a href="team-2.html">Team 2</a>
-                          </li>
-                          <li><a href="team-single.html">Team Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Portfolio
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="portfolio-grid-2.html">Portfolio Grid 2</a>
-                          </li>
-                          <li><a href="portfolio-grid-3.html">Portfolio Grid 3</a>
-                          </li>
-                          <li><a href="portfolio-fullwidth.html">Portfolio Fullwidth</a>
-                          </li>
-                          <li><a href="portfolio-single.html">Portfolio Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Blog
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="blog-grid-2.html">Blog Grid 2</a>
-                          </li>
-                          <li><a href="blog-grid-3.html">Blog Grid 3</a>
-                          </li>
-                          <li><a href="blog-classic.html">Blog Classic</a>
-                          </li>
-                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                          </li>
-                          <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                          </li>
-                          <li><a href="blog-single.html">Blog Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Element
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="shortcode-accordion.html">Accordion</a>
-                          </li>
-                          <li><a href="shortcode-blog-post.html">Blog Post</a>
-                          </li>
-                          <li><a href="shortcode-counter.html">Counter</a>
-                          </li>
-                          <li><a href="shortcode-feature.html">Feature Box</a>
-                          </li>
-                          <li><a href="shortcode-pricing.html">Pricing Table</a>
-                          </li>
-                          <li><a href="shortcode-team.html">Team</a>
-                          </li>
-                          <li><a href="shortcode-testimonial.html">Testimonial</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="faq.html">Faq</a>
-                      </li>
-                      <li><a href="pricing.html">Pricing</a>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Utility
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="coming-soon.html">Coming Soon 1</a>
-                          </li>
-                          <li><a href="coming-soon-2.html">Coming Soon 2</a>
-                          </li>
-                          <li><a href="error-404.html">404 Error 1</a>
-                          </li>
-                          <li><a href="error-404-2.html">404 Error 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Account
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="login.html">Login 1</a>
-                          </li>
-                          <li><a href="login-2.html">Login 2</a>
-                          </li>
-                          <li><a href="register.html">Register</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                      Contact Us
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="contact.html">Contact 1</a>
-                          </li>
-                          <li><a href="contact-2.html">Contact 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
+                </ul>
             </div>
-            <div class="right-nav d-sm-block d-none">
+            <!-- <div class="right-nav d-sm-block d-none">
               <a class="btn btn-theme btn-sm" href="login.html"><span>Login</span></a>
-            </div>
+            </div> -->
           </nav>
         </div>
       </div>
@@ -263,9 +138,9 @@
         <img class="img-fluid" src="images/banner/08.png" alt="">
       </div>
         <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
-          <h1 class="mb-4 font-w-4 wow fadeInLeft" data-wow-duration="1.5s">Saasaht is <span class="font-w-7">digital agency</span> for Business Startup</h1>
-          <p class="lead mb-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">Sassaht is an the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.</p> <a class="btn btn-theme" href="#"><span>Learn More</span></a>
-          <a class="btn btn-dark" href="#"><span>Contact Us</span></a> 
+          <h1 class="mb-4 font-w-4 wow fadeInLeft" data-wow-duration="1.5s">WeDoer is <span class="font-w-7">digital agency</span> for Business Startup</h1>
+          <p class="lead mb-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">Sassaht is an the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.</p> <a class="btn btn-theme" href="#services"><span>Services</span></a>
+          <a class="btn btn-dark" href="#contactUs"><span>Contact Us</span></a> 
         </div>        
       </div>
     </div>
@@ -311,7 +186,7 @@
 <!-- Counter for number of projects start -->
 
 
-<section class="pt-0">
+<section class="pt-0" id="stats">
   <div class="container">
     <h2 class="title"  style="text-align: left;">Our stats: </h2>
     <div class="row">
@@ -385,7 +260,7 @@
     <div class="row align-items-center">
       <div class="col-lg-4 col-md-12 ps-lg-5" style="width:100%">
         <div class="section-title">
-          <h2 class="title">Sassaht Provide <span>Great Services</span></h2>
+          <h2 class="title">WeDoer Provide <span>Great Services</span></h2>
           <div class="title-bdr">
             <div class="left-bdr"></div>
             <div class="right-bdr"></div>
@@ -529,67 +404,11 @@
 <!--services end-->
 
 
-
-<!--client start-->
-
-<section class="grey-bg custom-pt-2 custom-mt-20 z-index-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="owl-carousel no-pb" data-dots="false" data-items="5" data-md-items="4" data-sm-items="3" data-margin="30" data-autoplay="true">
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/01.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/02.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/03.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/04.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/05.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/06.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/07.png" alt="">
-            </div>
-          </div>
-          <div class="item">
-            <div class="client-logo style-2">
-              <img class="img-fluid" src="images/client/08.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--client end-->
-
 <!--projects start-->
 
 <section id="blog" class="position-relative">
   <div class="round-anim"></div>
-  <div class="container">
+  <div class="container" style="width:1325px;">
     <div class="row align-items-end mb-5">
       <div class="col-lg-6 col-md-12">
         <div class="section-title mb-0">
@@ -604,8 +423,8 @@
         <p class="text-black lead mb-0">Powerfull Template customer service with our tools, hendrerit omittantur mel, es vidit Ius te omittantur meles vidit Ius te altera essent incorrupte.</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-12">
+    <div class="row" style="width:100vw;margin-left:0;">
+      <div class="col-lg-4 col-md-12 projects">
         <div class="post style-4">
           <div class="post-image">
             <img class="img-fluid h-100 w-100" src="images/blog/01.jpg" alt="">
@@ -629,7 +448,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 projects">
         <div class="post style-4">
           <div class="post-image">
             <img class="img-fluid h-100 w-100" src="images/blog/02.jpg" alt="">
@@ -653,7 +472,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 projects" >
         <div class="post style-4">
           <div class="post-image">
             <img class="img-fluid h-100 w-100" src="images/blog/03.jpg" alt="">
@@ -677,161 +496,92 @@
           </div>
         </div>
       </div>
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 projects" >
+        <div class="post style-4">
+          <div class="post-image">
+            <img class="img-fluid h-100 w-100" src="images/blog/03.jpg" alt="">
+          </div>
+          <div class="post-desc">
+            <div class="post-categories mt-4">
+              <ul class="list-inline">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="post-title">
+              <h4><a href="blog-single.html">All Powerful Design feature In Sassaht</a></h4>
+            </div>
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><i class="la la-calendar me-1"></i> 23 Jan, 2019</li>
+                <li><i class="la la-user me-1"></i> By ThemeHt</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 projects" >
+        <div class="post style-4">
+          <div class="post-image">
+            <img class="img-fluid h-100 w-100" src="images/blog/03.jpg" alt="">
+          </div>
+          <div class="post-desc">
+            <div class="post-categories mt-4">
+              <ul class="list-inline">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="post-title">
+              <h4><a href="blog-single.html">All Powerful Design feature In Sassaht</a></h4>
+            </div>
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><i class="la la-calendar me-1"></i> 23 Jan, 2019</li>
+                <li><i class="la la-user me-1"></i> By ThemeHt</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 projects" >
+        <div class="post style-4">
+          <div class="post-image">
+            <img class="img-fluid h-100 w-100" src="images/blog/03.jpg" alt="">
+          </div>
+          <div class="post-desc">
+            <div class="post-categories mt-4">
+              <ul class="list-inline">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="post-title">
+              <h4><a href="blog-single.html">All Powerful Design feature In Sassaht</a></h4>
+            </div>
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><i class="la la-calendar me-1"></i> 23 Jan, 2019</li>
+                <li><i class="la la-user me-1"></i> By ThemeHt</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
 
 <!--projects end-->
 
-<section>
-  <div class="container" id="team">
-    <h2 class="title">Meet Our: <br><span>Team</span></h2>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="owl-carousel owl-loaded owl-drag" data-items="3 " data-md-items="2" data-sm-items="1" data-autoplay="true">
-          
-          
-          
-          
-        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2592px, 0px, 0px); transition: all 0.25s ease 0s; width: 4320px;"><div class="owl-item cloned" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Lana Roadse</h5>
-                <label>CEO of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/02.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Injected humour, or randomised words which don't look even slightly believable generators on the Internet tend to repeat predefined chunks as necessary.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Thomas James</h5>
-                <label>Founder of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/03.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Reasonable porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt looks.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Ceathy White</h5>
-                <label>CEO of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/02.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the momen words.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Jasse Lynn</h5>
-                <label>Founder of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/01.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Eeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt contact me.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Lana Roadse</h5>
-                <label>CEO of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/02.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Injected humour, or randomised words which don't look even slightly believable generators on the Internet tend to repeat predefined chunks as necessary.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Thomas James</h5>
-                <label>Founder of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/03.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Reasonable porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt looks.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item active" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Ceathy White</h5>
-                <label>CEO of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/02.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the momen words.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned active" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Jasse Lynn</h5>
-                <label>Founder of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/01.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Eeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt contact me.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned active" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Lana Roadse</h5>
-                <label>CEO of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/02.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Injected humour, or randomised words which don't look even slightly believable generators on the Internet tend to repeat predefined chunks as necessary.</p>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 432px;"><div class="item">
-            <div class="testimonial style-3">
-              <div class="testimonial-caption">
-                <h5>Thomas James</h5>
-                <label>Founder of Sassaht</label>
-              </div>
-              <div class="testimonial-img">
-                <img class="img-fluid" src="images/testimonial/small/03.jpg" alt="">
-              </div>
-              <div class="testimonial-content">
-                <p>Reasonable porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt looks.</p>
-              </div>
-            </div>
-          </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span class="fas fa-long-arrow-alt-left"><span></span></span></button><button type="button" role="presentation" class="owl-next"><span class="fas fa-long-arrow-alt-right"></span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 </div>
+
+
 <!-- testimonial caraousel start -->
-<div class="page-content">
+<div class="page-content" id="reviews">
   <!--testimonial style-2 start-->
   
   <section>
@@ -960,6 +710,9 @@
   
   </div>
 <!-- testimonial caraousel end-->
+
+
+
 <!--body content end--> 
 <section>
   <div class="container" id="contactUs">
@@ -1053,6 +806,60 @@
 </section>
 
 
+<!--client start-->
+
+<section class="grey-bg custom-pt-2 custom-mt-20 z-index-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="owl-carousel no-pb" data-dots="false" data-items="5" data-md-items="4" data-sm-items="3" data-margin="30" data-autoplay="true">
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/01.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/02.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/03.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/04.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/05.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/06.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/07.png" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div class="client-logo style-2">
+              <img class="img-fluid" src="images/client/08.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--client end-->
 
 <!--footer start-->
 <div id="waterdrop"></div>
@@ -1194,6 +1001,20 @@
 
 <!--== theme-script -->
 <script src="js/theme-script.js"></script>
+
+<!-- for slick caraousel -->
+<!-- <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#blog").slick({
+          slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+        });
+      });
+    </script>
 
 <!-- inject js end -->
 
